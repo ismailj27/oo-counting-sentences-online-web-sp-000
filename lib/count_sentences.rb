@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(string)
-    string[-1] == "."
+  def sentence?(a_string)
+    a_string[-1] == "."
   end
 
   def question?
