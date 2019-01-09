@@ -18,7 +18,7 @@ class String
     d_self = self.split(".").join()
     d_self = d_self.split("!").join()
     d_self = d_self.split("?").join()
-    
+    d_self = d_self.split()
     d_self.length
   end
 end
