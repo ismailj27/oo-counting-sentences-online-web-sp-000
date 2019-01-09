@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(string)
-    string.end_wi(".")
+    string[-1] == 
   end
 
   def question?
